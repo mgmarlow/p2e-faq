@@ -1,4 +1,4 @@
-# GM Resources
+# Helpful Resources
 
 ## Rules Reference
 
@@ -12,6 +12,7 @@
 - [2-minute Token Editor](https://tools.2minutetabletop.com/token-editor/)
 
 ## Homebrew
+
 - [P2e Monster Tool](http://monster.pf2.tools/)
 - [P2e Scribe](https://scribe.pf2.tools/)
 - [P2e Template Tool](http://template.pf2.tools/)

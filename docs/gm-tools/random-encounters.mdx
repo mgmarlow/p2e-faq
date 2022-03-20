@@ -1,0 +1,64 @@
+import Table from '@site/src/components/Table'
+
+# Random Encounters
+
+Random encounters help maintain tension when dungeon crawling, keeping things spicy. These rules pair especially well with [Tension Clocks](./tension-clocks).
+
+## Crafting Encounters
+
+1. Prep a list of relevant creatures beforehand, usually within 4 levels of your players. Each creature is assigned an XP value from the [Creature XP table](#creature-xp).
+2. Decide on the encounter's threat level. Most random encounters should be Moderate.
+3. Consult the [Encounter XP Budget](#encounter-xp-budget) table.
+4. Pick monsters from step 1 until you reach the XP budget from step 3.
+
+## Encounter XP Budget
+
+This table provides a recommended XP budget matching the encounter's intended threat level.
+
+This table is designed for parties with 4 players. For groups consisting of greater or fewer, add or subtract the adjustment value for each additional or missing player.
+
+<Table
+  heading={['Threat', 'XP Budget', 'Adjustment']}
+  rows={[
+    ['Trivial', 40, 10],
+    ['Low', 60, 15],
+    ['Moderate', 80, 20],
+    ['Severe', 120, 30],
+    ['Extreme', 160, 40],
+  ]}
+/>
+
+([Source](https://2e.aonprd.com/Rules.aspx?ID=498))
+
+## Creature XP
+
+The Creature XP table assigns an XP value to a monster based on the difference between that monster's level and the party's average level (PL).
+
+<Table
+  heading={['Creature Level', 'XP', 'Suggested Role']}
+  rows={[
+    ['PL-4', 10, 'Low-threat Lackey'],
+    ['PL-3', 15, 'Low or moderate-threat Lackey'],
+    ['PL-2', 20, 'Lackey or standard creature'],
+    ['PL-1', 30, 'Standard creature'],
+    ['PL', 40, 'Standard creature or low-threat boss'],
+    ['PL+1', 60, 'Low or moderate-threat boss'],
+    ['PL+2', 80, 'Moderate or severe-threat boss'],
+    ['PL+3', 120, 'Severe or extreme-threat boss'],
+    ['PL+4', 160, 'Extreme-threat boss'],
+  ]}
+/>
+
+([Source](https://2e.aonprd.com/Rules.aspx?ID=499))
+
+## Examples
+
+Given a party of 4 level 5 characters, a moderate encounter may look like:
+
+- XP budget = 80XP
+- Level 4 creature (30XP) + level 4 creature (30XP) + level 3 creature (20XP)
+
+Given a party of 6 level 5 characters, a moderate encounter may look like:
+
+- XP budget = 80XP + (2 \* 20XP) = 120XP
+- Level 6 creature (60XP) + level 5 creature (40XP) + level 3 creature (20XP)

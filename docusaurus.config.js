@@ -1,14 +1,14 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer/themes/github')
+const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'P2E FAQ',
-  tagline: 'Pathfinder2e tips and tools',
-  url: 'https://mgmarlow.github.io/p2e-faq',
+  title: 'P2E Guides',
+  tagline: 'Guides for Pathfinder2e designed for GMs and players alike.',
+  url: 'https://mgmarlow.github.io/',
   baseUrl: '/p2e-faq/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -42,6 +42,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {
+          name: 'description',
+          content:
+            'Guides for Pathfinder 2e designed for GMs and players alike.',
+        },
+      ],
       navbar: {
         title: 'P2E FAQ',
         logo: {
@@ -113,6 +120,6 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-};
+}
 
-module.exports = config;
+module.exports = config
