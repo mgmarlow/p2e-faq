@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkp_2_e_redux=self.webpackChunkp_2_e_redux||[]).push([[169],{3552:function(e){e.exports=JSON.parse('{"allTagsPath":"/p2e-faq/blog/tags","slug":"/p2e-faq/blog/tags/facebook","name":"facebook","count":1,"permalink":"/p2e-faq/blog/tags/facebook"}')}}]);
