@@ -1,8 +1,3 @@
----
-sidebar_position: 1
-slug: /
----
-
 # Player FAQ
 
 ## How do I identify items?
@@ -38,6 +33,7 @@ Unless otherwise noted in the ability description, you do not receive persistent
 - Sleeping in armor results in poor rest & causes players to wake up [Fatigued](https://2e.aonprd.com/Conditions.aspx?ID=15).
 
 When an encounter happens,
+
 - Roll to randomly determine who's on watch.
 - All characters roll initiative, but that doesn't mean they wake up. Sleeping characters roll perception w/ -4 status penalty.
 - Characters who are asleep may attempt a perception check to wake at the start of turn (if they aren't awakened by some other force, see [Unconscious](https://2e.aonprd.com/Conditions.aspx?ID=38)).
@@ -45,13 +41,16 @@ When an encounter happens,
 ## How do I detect hazards?
 
 If there's a minimum proficiency listed:
+
 - Roll secret perception check only if someone is actively [Searching](https://2e.aonprd.com/Activities.aspx?ID=9) and only if they have the required proficiency rank.
 - e.g. **Stealth** +16 (expert): player must be an expert in [Perception](https://2e.aonprd.com/Rules.aspx?ID=326) to enable rolling Perception against the Hazard's Stealth DC of 16.
 
 All other Hazards:
+
 - Roll a secret perception check against the Hazard's Stealth DC.
 
 Other notes:
+
 - Hazards with a minimum proficiency cannot be found with [Detect Magic](https://2e.aonprd.com/Spells.aspx?ID=66).
 
 ## How should I spend my other combat actions?
@@ -74,6 +73,7 @@ Useful [Skill Actions](https://2e.aonprd.com/Rules.aspx?ID=173) for combat:
 Actions marked with "Trained" require you to have a proficiency rank of trained or better to use the associated skill. Note that this isn't visible on the action pages in archives, you must refer to the associated Skill page, e.g. [Athletics](https://2e.aonprd.com/Skills.aspx?ID=3).
 
 Other notes:
+
 - Actions with the [Attack](https://2e.aonprd.com/Traits.aspx?ID=15) trait count towards the characters [MAP](https://2e.aonprd.com/Rules.aspx?ID=322) (multiple attack penalty).
 - Movement is also super crucial. Unlike PF1e, most enemies don’t have attacks of opportunity. Combine that with the fact that you get three actions every round and you get loads of opportunity to reposition. Use it!
 - Repositioning can make enemies waste an action on [Stride](https://2e.aonprd.com/Actions.aspx?ID=88), preventing a [Strike](https://2e.aonprd.com/Actions.aspx?ID=89) or [Skill Action](https://2e.aonprd.com/Rules.aspx?ID=173).
@@ -86,29 +86,34 @@ Other notes:
 
 ## How do I escape a grapple?
 
-With the [Escape](https://2e.aonprd.com/Actions.aspx?ID=79) action. Choose ONE of the following: 
+With the [Escape](https://2e.aonprd.com/Actions.aspx?ID=79) action. Choose ONE of the following:
+
 - Attempt a check using your unarmed attack modifier against the DC of the effect. OR,
 - Attempt an Acrobatics or Athletics check against the DC of the effect (note: the action still has the Attack trait).
 
 Other notes:
+
 - Escape includes the [Attack](https://2e.aonprd.com/Traits.aspx?ID=15) trait, meaning it contributes to your [MAP](https://2e.aonprd.com/Rules.aspx?ID=322).
 - If you critically fail, you cannot attempt an Escape again until next turn.
 
 ## How does cover work?
 
 When you're behind an obstacle or another character:
+
 - [Cover](https://2e.aonprd.com/Rules.aspx?ID=459) passively provides bonuses to AC based on whether the cover is lesser (+1), standard (+2), or greater (+4).
 - Enables the [Take Cover](https://2e.aonprd.com/Actions.aspx?ID=90) action to increase Cover bonuses by one increment.
 
 Determine Cover by drawing a line from the center of your space to the center of the target's space:
+
 - Lesser: line passes through a creature.
 - Standard: line passes through terrain or an object.
 - Greater: same as standard, but with Take Cover applied.
 
 Cover and [Hide](https://2e.aonprd.com/Actions.aspx?ID=62) are closely related:
+
 - You must be in standard or greater Cover to Hide.
 - If you are behind lesser cover, you must Take Cover before you can Hide.
-- Your Stealth check benefits from the Cover circumstance bonus when attempting to Hide. 
+- Your Stealth check benefits from the Cover circumstance bonus when attempting to Hide.
 
 ## How do I identify a creature?
 
